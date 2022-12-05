@@ -52,9 +52,7 @@ public class CommandWindow : EditorWindow
 }
 #endif
 ```
-![image](https://user-images.githubusercontent.com/22467083/205657484-27f8fb8b-22e6-4e69-aebd-05d46d6cde4c.png)
-
-![image](https://user-images.githubusercontent.com/22467083/205657504-e8600864-ce16-4906-972b-94c2ab403fd1.png)
+![image](https://user-images.githubusercontent.com/22467083/205658292-4d45d245-48c5-420e-af16-db3899611da7.png)
 
 
 예제에선 Asset/Script/Item 경로의 스크립트들을 가져온다.
