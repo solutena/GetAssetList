@@ -14,17 +14,16 @@ public class CommandWindow : EditorWindow
 
 	List<Object> list;
 	int select = 0;
-	string path = "Assets/Script";
+	string path = "Assets/Script/Item/";
 	string filter = "t:MonoScript";
 
 	private void OnGUI()
 	{
-		if (list == null)
-			list = GetAssetList(path, filter);
+		list = GetAssetList(path, filter);
 		select = GUILayout.SelectionGrid(select, list.ConvertAll(obj => obj.name).ToArray(), 1, "PreferencesKeysElement");
 		if (GUILayout.Button("Open"))
 		{
-			Object script = AssetDatabase.LoadAssetAtPath<MonoScript>(path + "/" + list[select].name + ".cs");
+			Object script = AssetDatabase.LoadAssetAtPath<MonoScript>(path + list[select].name + ".cs");
 			AssetDatabase.OpenAsset(script);
 		}
 	}
