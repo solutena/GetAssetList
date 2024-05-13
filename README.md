@@ -9,7 +9,7 @@ public static List<Object> GetAssetList(string path, string filter)
 }
 ```
 
-에셋 경로 내의 리스트를 가져와 커스텀 에디터에서 활용 할 수 있다.
+에셋 경로 내의 리스트를 가져와 커스텀 에디터에서 활용 할 수 있습니다.
 
 ## 예제
 
@@ -55,8 +55,8 @@ public class CommandWindow : EditorWindow
 ![image](https://user-images.githubusercontent.com/22467083/205658292-4d45d245-48c5-420e-af16-db3899611da7.png)
 
 
-예제에선 Asset/Script/Item 경로의 스크립트들을 가져온다.
+예제에선 Asset/Script/Item 경로의 스크립트들을 가져옵니다.
 
-Open 버튼을 통해서 스크립트를 열 수 있다.
+Open 버튼을 통해서 스크립트를 열 수 있습니다.
 
 스크립트로 구현된 아이템, 스킬 등을 편리하게 관리 할 수 있다.
